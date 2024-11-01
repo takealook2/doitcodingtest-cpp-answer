@@ -1,0 +1,24 @@
+# 모든 파일 무시
+*
+
+# .vs 폴더 무시
+.vs/
+
+# 빌드 아티팩트 무시
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.tlog
+*.sln
+*.vcxproj*
+*.filters
+
+# 폴더 구조는 유지
+!*/
+
+# .gitignore 파일은 제외
+!.gitignore
+
+# .cpp 파일만 Git에 포함
+!*.cpp
